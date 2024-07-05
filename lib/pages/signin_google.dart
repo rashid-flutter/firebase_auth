@@ -19,6 +19,9 @@ class _SignInPageState extends State<SignInPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('SIGN IN '),
+      ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
